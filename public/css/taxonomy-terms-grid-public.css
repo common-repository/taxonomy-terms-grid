@@ -1,0 +1,30 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ /* Category list */
+ .ttg-container{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	margin: 50px 0;
+ }
+ .ttg-container h4{
+ 	margin: 20px 0;
+ }
+ .ttg-3-per-row .ttg-term{
+ 	flex: 0 0 31%;
+    text-align: center;
+    border: solid 1px #F1F1F1;
+    margin: 1.16% !important;
+ }
+ .ttg-4-per-row .ttg-term{
+ 	flex: 0 0 23%;
+    text-align: center;
+    border: solid 1px #F1F1F1;
+    margin: 1% !important;
+ }
+ @media screen and (max-width: 767px){
+ 	.ttg-term{
+ 		flex: 0 0 100%;
+ 	}
+ }
